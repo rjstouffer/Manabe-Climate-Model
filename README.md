@@ -1,6 +1,6 @@
 # Manabe-Climate-Model
 Source code, simple script and input data to test model. Model documentation for the atmospheric component is also provided. Documentation for the ocean (MOM1) is available elsewhere. THis model was developed at GFDL/NOAA in Princeton, NJ by a group of scientists in the 1980's and 1990's. The model was used in many important climate papers through the year 2000.
-There is a tar balls and a zip file in this repository. The zip file contains the model documentation. The tarball contains the code, simple compile and run script along with the input data.
+There is a tarball and a zip file in this repository. The zip file contains the model documentation. The tarball contains the code, simple compile and run script along with the input data.
 The model code was developed for Cray supercomputers available in the 1980's and 1990's. Recnetly the code was ported to run on PC-like machines using the Intel compiles. Some testing was performed using other available compilers (e.g. GNU).
 THe model as provided is a 2 degree atmosphere and ocean model. The atmosphere resolution is normally described as an R30. The tranform grid for the atmsophere is 96 (east-west) by 80 (north-south). The ocean grid is 192 by 80 and arranged so that 2 TS (tracer) oceanic grid boxes overlay 1 atmispheric grid box.
 The physical parameterizations are very simple and were mainly developed by Manabe and co-workers in the 1970's and 1980's for the atmosphere and by Bryan and co-worker for the ocean. There is no diurnal variation of the radiation.
