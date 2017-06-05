@@ -1,0 +1,11 @@
+This tarball provides a simple script to compile and run the MCM (Manabe Climate Model). The runscript uses the csh (c-shell).
+
+Before using the runscript, the  User must set path to where tarball was extracted so that shell variables can point to model_code, runscripts and model input data.
+
+The User must also set path to directory in which the test run is to be performed.
+
+The runscript runs the model 1 month and copies the printout back to the directory containing the runscripts. The user can compare the new results with the provided results. Unfortunately there is no easy way to detemine if the answers are good.
+
+Ron Stouffer
+June 2017
+
